@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}   
+
+.content-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 115px auto 200px auto;    
+    width: 375px;
+}
+
+.logo-random{
+    display: flex;
+    width: 150px;
+    height: 27.44px;
+    background-image: url(../../img/logo_random_1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.form-message{
+    display: flex;
+    text-align: center;
+    color: #101010;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 15px 0px 0px 0px;
+    line-height: 15pt;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0px 0px 0px;   
+}
+
+.input-username{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    color: #353535;
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0px 0px 15px 0px;
+}
+
+.input-username::placeholder{
+    color: #999999;
+}
+
+.input-username:hover{
+    border-radius: 0px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #d9d9d9;
+    transition: 500ms;
+    transition-duration: 500ms;
+}
+
+.input-username:focus{
+    border-radius: 0px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #d9d9d9;
+    transition: 500ms;
+    transition-duration: 500ms;
+}
+
+/* --- */
+
+.input-email{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    color: #353535;
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0px 0px 15px 0px;
+}
+
+.input-email::placeholder{
+    color: #999999;
+}
+
+.input-email:hover{
+    border-radius: 0px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #d9d9d9;
+    transition: 500ms;
+    transition-duration: 500ms;
+}
+
+.input-email:focus{
+    border-radius: 0px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #d9d9d9;
+    transition: 500ms;
+    transition-duration: 500ms;
+}
+
+/* --- */
+
+.input-password{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    color: #353535;
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0px 0px 15px 0px;
+}
+
+.input-password::placeholder{
+    color: #999999;
+}
+
+.input-password:hover{
+    border-radius: 0px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #d9d9d9;
+    transition: 500ms;
+    transition-duration: 500ms;
+}
+
+.input-password:focus{
+    border-radius: 0px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #d9d9d9;
+    transition: 500ms;
+    transition-duration: 500ms;
+}
+
+/* --- */
+
+.button-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 45px;
+    background: #ff142a;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-form:hover{
+    background: #ff142be5;
+    transition: 500ms;
+    transition-duration: 500ms;
+}
+
+/* ------ */
+
+.text-or{
+    font-size: 15px;
+    color: #505050;
+    margin: 15px 0px;   
+}
+
+/* --- */
+
+.button-login-facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 45px;
+    background: #4267b2;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 5px;
+    margin: 0px 0px 10px 0px;
+}
+
+/* --- */
+
+.button-login-google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 45px;
+    background: #4285f4;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0px;
+    color: #999999;
+    font-size: 14px;
+}
